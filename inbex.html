@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title" class="hola">Formulario De Encuesta</h1>
+    <p id="description">Recopilamos su informacion para ofecer un mejor sevicio y conocer un poco mas a nuestros usarios</p>
+    
+<div id="cuadro">
+    
+    
+        <label id="name-label"> ingrese su nombre <input type="text" id="name" required placeholder="Nombre"></label>
+        <label id="email-label">ingrese su correo electronico <input type="email"id="email" required placeholder="Email @"></label>
+        <label id="number-label"> ingrese su edad <input type="number" id="number" min="18" max="255" placeholder="EDAD"></label>
+
+        <label for="dropdown"> Estas deacuerdo con esta encuesta 
+
+            <select name="dropdown" id="dropdown">
+                <option value="0">Responde</option>
+                <option value="1"> si </option>
+                <option value="2"> no </option>
+            </select>
+        </label>
+
+        <p>Has llenado algun formulario antes de este estylo</p>
+        <label for="boton1"><input type="radio" id="boton1" name="botones" value="1"> Primera ves</label>
+        <label for="boton2"> <input type="radio" id="boton2" name="botones" value="2"> He llenado otros formularios </label>
+        <label for="boton3"> <input type="radio" id="boton3" name="botones" value="3"> No recuerdo</label>
+       
+
+        <p>Seleciona los elementos mas importantes que quieres ver</p>
+        <label for="caja1"> <input type="checkbox" id="caja1" value="1"> Actividades</label>
+        <label for="caja2"> <input type="checkbox" id="caja2" value="2"> videos </label>
+        <label for="caja3"> <input type="checkbox" id="caja3" value="3"> clases interactivas </label>
+        <label for="caja4"> <input type="checkbox" id="caja4" value="4"> clases interactivas </label>
+       
+        <div class="agua">
+        <label for="bio">
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="comentario"></textarea>
+        </label>
+        </div>   
+        <label for="submit"> <input type="submit" id="submit" ></label>
+
+
+
+    
+</div>
+
+</body>
+</html>
